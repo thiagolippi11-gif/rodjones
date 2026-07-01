@@ -1,0 +1,792 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Rod Jones Custom Wallcovering — Specialty Wall Coverings, Gold Leaf, Murals & Painting in El Cajon, CA</title>
+<meta name="description" content="Specialty wall coverings, custom wallpaper, gold leaf, murals, wood lamination, acoustic paneling & interior painting in El Cajon and East San Diego County. One craftsman, trusted since 1979. Free estimates — call (619) 462-4988." />
+
+<!-- Social preview -->
+<meta property="og:title" content="Rod Jones Custom Wallcovering — El Cajon, CA" />
+<meta property="og:description" content="Specialty wall coverings, gold leaf, murals, wood lamination & painting, done to last. Serving East County since 1979. Free estimates — (619) 462-4988." />
+<meta property="og:type" content="website" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;500;600;700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --spruce:#1E3A2F;      /* primary heritage green */
+    --pine:#15271E;        /* deepest green (footer / depth) */
+    --spruce-2:#264a3b;    /* lighter green for cards on green */
+    --brass:#C1913F;       /* warm metallic accent */
+    --brass-lt:#E4C892;    /* soft brass for pattern lines */
+    --paper:#F3F1EB;       /* warm off-white content surface */
+    --paper-2:#EAE6DC;     /* slightly deeper paper */
+    --ink:#22231E;         /* near-black warm text */
+    --ink-soft:#4b4d44;    /* muted body text on paper */
+    --line:#D9D3C6;        /* hairline borders on paper */
+    --shadow:0 18px 44px -20px rgba(21,39,30,.55);
+    --shadow-sm:0 8px 22px -14px rgba(21,39,30,.5);
+    --r:14px;
+  }
+
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;
+    font-family:"Figtree",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink);
+    background:var(--paper);
+    font-size:17.5px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,h4{font-family:"Zilla Slab",Georgia,serif;font-weight:600;line-height:1.08;margin:0;letter-spacing:-.01em}
+  p{margin:0 0 1.05em}
+  a{color:inherit}
+  img{max-width:100%;display:block}
+
+  .wrap{max-width:1140px;margin-inline:auto;padding-inline:24px}
+  .eyebrow{
+    font-family:"Figtree",sans-serif;font-weight:600;font-size:.74rem;letter-spacing:.22em;
+    text-transform:uppercase;color:var(--brass);margin:0 0 18px;display:inline-block
+  }
+  .eyebrow--dark{color:#9d7a34}
+
+  /* ---------- Buttons ---------- */
+  .btn{
+    display:inline-flex;align-items:center;gap:.55em;justify-content:center;
+    font-family:"Figtree",sans-serif;font-weight:600;font-size:1.02rem;
+    padding:15px 26px;border-radius:999px;text-decoration:none;cursor:pointer;border:1.5px solid transparent;
+    transition:transform .18s ease, box-shadow .18s ease, background .18s ease, color .18s ease;
+    white-space:nowrap;
+  }
+  .btn svg{width:18px;height:18px;flex:none}
+  .btn--brass{background:var(--brass);color:#20180a;box-shadow:0 10px 22px -12px rgba(193,145,63,.9)}
+  .btn--brass:hover{transform:translateY(-2px);box-shadow:0 16px 30px -12px rgba(193,145,63,.95)}
+  .btn--ghost{background:transparent;color:var(--paper);border-color:rgba(243,241,235,.4)}
+  .btn--ghost:hover{border-color:var(--brass-lt);background:rgba(228,200,146,.08);transform:translateY(-2px)}
+  .btn--ink{background:var(--spruce);color:var(--paper)}
+  .btn--ink:hover{background:var(--pine);transform:translateY(-2px);box-shadow:var(--shadow-sm)}
+  .btn--big{padding:18px 34px;font-size:1.08rem}
+
+  /* ---------- Header ---------- */
+  .topbar{
+    position:sticky;top:0;z-index:60;background:rgba(21,39,30,.92);
+    backdrop-filter:saturate(140%) blur(8px);border-bottom:1px solid rgba(228,200,146,.16);
+    color:var(--paper)
+  }
+  .topbar__in{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:13px 24px;max-width:1200px;margin-inline:auto}
+  .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--paper)}
+  .brand__mark{
+    width:40px;height:40px;border-radius:9px;border:1.5px solid var(--brass);
+    display:grid;place-items:center;flex:none;background:rgba(193,145,63,.12)
+  }
+  .brand__mark span{font-family:"Zilla Slab",serif;font-weight:700;color:var(--brass-lt);font-size:1.15rem;line-height:1}
+  .brand__txt b{font-family:"Zilla Slab",serif;font-weight:600;font-size:1.05rem;display:block;line-height:1.05;letter-spacing:.01em}
+  .brand__txt small{font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--brass-lt);opacity:.85}
+  .topnav{display:flex;align-items:center;gap:30px}
+  .topnav a.lnk{text-decoration:none;font-size:.95rem;font-weight:500;color:rgba(243,241,235,.82);transition:color .15s}
+  .topnav a.lnk:hover{color:var(--brass-lt)}
+  .topbar .btn--brass{padding:11px 20px;font-size:.95rem}
+
+  /* ---------- Hero ---------- */
+  .hero{position:relative;background:var(--spruce);color:var(--paper);overflow:hidden}
+  .hero__pattern{position:absolute;inset:0;opacity:.11;pointer-events:none}
+  .hero__glow{position:absolute;width:620px;height:620px;right:-160px;top:-220px;border-radius:50%;
+    background:radial-gradient(circle,rgba(193,145,63,.28),transparent 62%);pointer-events:none}
+  .hero__in{
+    position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center;
+    padding:78px 24px 88px;max-width:1140px;margin-inline:auto
+  }
+  .hero h1{font-size:clamp(2.5rem,5.4vw,4.15rem);font-weight:700;letter-spacing:-.02em}
+  .hero h1 .amp{color:var(--brass-lt);font-weight:500;font-style:italic}
+  .hero__lead{font-size:1.16rem;color:rgba(243,241,235,.86);max-width:33em;margin:22px 0 32px}
+  .hero__cta{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+  .hero__micro{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:26px;font-size:.9rem;color:rgba(243,241,235,.72)}
+  .hero__micro span{display:inline-flex;align-items:center;gap:7px}
+  .hero__micro svg{width:15px;height:15px;color:var(--brass-lt)}
+
+  /* Signature: painter's sample board */
+  .board{
+    background:linear-gradient(180deg,#fdfcf9,#f1ede3);border-radius:18px;color:var(--ink);
+    box-shadow:var(--shadow);border:1px solid rgba(255,255,255,.6);overflow:hidden;transform:rotate(-1.4deg)
+  }
+  .board__top{display:flex;align-items:center;justify-content:space-between;padding:16px 20px;border-bottom:1px solid var(--line)}
+  .board__top b{font-family:"Zilla Slab",serif;font-size:1.05rem}
+  .board__top .yrs{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#fff;background:var(--spruce);padding:5px 10px;border-radius:999px}
+  .swatch{display:flex;align-items:center;gap:16px;padding:16px 20px;border-bottom:1px solid var(--line)}
+  .swatch:last-of-type{border-bottom:0}
+  .swatch__chip{width:60px;height:60px;border-radius:10px;flex:none;box-shadow:inset 0 0 0 1px rgba(0,0,0,.08)}
+  .chip-paper{background-color:var(--spruce);background-image:var(--damask)}
+  .chip-paint{background:linear-gradient(135deg,var(--brass),#a9752b)}
+  .chip-build{background:repeating-linear-gradient(45deg,#3a4a42 0 8px,#31413a 8px 16px)}
+  .swatch__t b{font-family:"Zilla Slab",serif;font-size:1.06rem;display:block}
+  .swatch__t small{color:var(--ink-soft);font-size:.9rem}
+  .swatch__tick{margin-left:auto;color:var(--spruce)}
+  .swatch__tick svg{width:22px;height:22px}
+  .board__foot{padding:13px 20px;background:var(--spruce);color:var(--paper);font-size:.82rem;letter-spacing:.04em;display:flex;align-items:center;gap:8px}
+  .board__foot svg{width:15px;height:15px;color:var(--brass-lt)}
+
+  /* ---------- Trust strip ---------- */
+  .trust{background:var(--pine);color:var(--paper)}
+  .trust__in{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;max-width:1140px;margin-inline:auto;padding:0 24px}
+  .trust__item{padding:26px 18px;text-align:center;border-left:1px solid rgba(228,200,146,.14)}
+  .trust__item:first-child{border-left:0}
+  .trust__item b{font-family:"Zilla Slab",serif;font-size:1.9rem;display:block;color:var(--brass-lt);line-height:1}
+  .trust__item span{font-size:.9rem;color:rgba(243,241,235,.8);margin-top:8px;display:block}
+
+  /* ---------- Sections ---------- */
+  .section{padding:92px 0}
+  .section--paper2{background:var(--paper-2)}
+  .section-head{max-width:640px;margin-bottom:46px}
+  .section-head h2{font-size:clamp(2rem,3.6vw,2.75rem)}
+  .section-head p{color:var(--ink-soft);font-size:1.1rem;margin-top:16px}
+
+  /* Services */
+  .services{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  .svc{
+    background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;
+    box-shadow:var(--shadow-sm);transition:transform .2s ease, box-shadow .2s ease;display:flex;flex-direction:column
+  }
+  .svc:hover{transform:translateY(-6px);box-shadow:var(--shadow)}
+  .svc__swatch{height:104px;position:relative;border-bottom:3px solid var(--brass)}
+  .svc__swatch--paper{background-color:var(--spruce);background-image:var(--damask)}
+  .svc__swatch--paint{background:linear-gradient(120deg,#254a3a,#37624e 55%,var(--brass))}
+  .svc__swatch--gold{background:linear-gradient(120deg,#a9752b,var(--brass) 42%,#ecd6a0)}
+  .svc__swatch--build{background:repeating-linear-gradient(45deg,#243f33 0 10px,#20382d 10px 20px)}
+  .svc__swatch .num{position:absolute;left:18px;bottom:12px;font-family:"Zilla Slab",serif;color:rgba(255,255,255,.5);font-size:.85rem;letter-spacing:.15em}
+  .svc__body{padding:24px 24px 26px;flex:1;display:flex;flex-direction:column}
+  .svc__body h3{font-size:1.34rem;margin-bottom:10px}
+  .svc__body p{color:var(--ink-soft);font-size:1rem;margin-bottom:16px}
+  .svc__list{list-style:none;padding:0;margin:0 0 20px;font-size:.97rem;color:var(--ink)}
+  .svc__list li{padding-left:24px;position:relative;margin-bottom:7px}
+  .svc__list li::before{content:"";position:absolute;left:0;top:.55em;width:9px;height:9px;border-radius:2px;background:var(--brass)}
+  .svc__link{margin-top:auto;text-decoration:none;font-weight:600;color:var(--spruce);display:inline-flex;align-items:center;gap:7px}
+  .svc__link svg{width:16px;height:16px;transition:transform .15s}
+  .svc:hover .svc__link svg{transform:translateX(4px)}
+
+  /* Craft / about band */
+  .craft{background:var(--spruce);color:var(--paper);position:relative;overflow:hidden}
+  .craft__pattern{position:absolute;inset:0;opacity:.08;pointer-events:none}
+  .craft__in{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;max-width:1140px;margin-inline:auto;padding:88px 24px}
+  .craft h2{font-size:clamp(2rem,3.6vw,2.7rem);margin-bottom:20px}
+  .craft p{color:rgba(243,241,235,.85);font-size:1.08rem}
+  .quote{border-left:3px solid var(--brass);padding:8px 0 8px 24px;margin:28px 0}
+  .quote p{font-family:"Zilla Slab",serif;font-size:1.5rem;line-height:1.32;color:var(--paper);font-style:italic;margin:0}
+  .quote cite{display:block;margin-top:12px;font-family:"Figtree",sans-serif;font-style:normal;font-size:.9rem;letter-spacing:.1em;text-transform:uppercase;color:var(--brass-lt)}
+  .craft__stats{display:grid;gap:22px}
+  .cstat{background:var(--spruce-2);border:1px solid rgba(228,200,146,.18);border-radius:var(--r);padding:24px 26px}
+  .cstat b{font-family:"Zilla Slab",serif;font-size:2.4rem;color:var(--brass-lt);display:block;line-height:1}
+  .cstat span{color:rgba(243,241,235,.85);font-size:1rem}
+
+  /* Work gallery */
+  .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .tile{aspect-ratio:4/3;border-radius:var(--r);position:relative;overflow:hidden;border:1px solid var(--line);display:grid;place-items:end start}
+  .tile::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(21,39,30,.62))}
+  .tile b{position:relative;z-index:1;color:#fff;font-family:"Zilla Slab",serif;font-weight:500;font-size:1.02rem;padding:16px 18px}
+  .tile.g1{background:linear-gradient(135deg,#2c5341,#1f3a2e)}
+  .tile.g2{background-color:var(--spruce);background-image:var(--damask)}
+  .tile.g3{background:linear-gradient(135deg,var(--brass),#8f6423)}
+  .tile.g4{background:repeating-linear-gradient(45deg,#26422f 0 12px,#20382a 12px 24px)}
+  .tile.g5{background:linear-gradient(135deg,#37624e,#244a3a)}
+  .tile.g6{background-color:#2a4638;background-image:var(--damask)}
+  .gallery-note{margin-top:20px;font-size:.92rem;color:var(--ink-soft);text-align:center}
+
+  /* Service area */
+  .area__in{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:center}
+  .area__list{display:flex;flex-wrap:wrap;gap:10px}
+  .pill{background:#fff;border:1px solid var(--line);border-radius:999px;padding:9px 16px;font-size:.95rem;font-weight:500;box-shadow:var(--shadow-sm)}
+  .area__cta{background:var(--spruce);color:var(--paper);border-radius:var(--r);padding:32px 34px;box-shadow:var(--shadow)}
+  .area__cta h3{font-size:1.5rem;margin-bottom:10px}
+  .area__cta p{color:rgba(243,241,235,.85);margin-bottom:22px}
+
+  /* Contact */
+  .contact__in{display:grid;grid-template-columns:1fr 1fr;gap:44px}
+  .info-card{background:#fff;border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow-sm);overflow:hidden}
+  .info-row{display:flex;gap:16px;padding:22px 26px;border-bottom:1px solid var(--line);align-items:flex-start}
+  .info-row:last-child{border-bottom:0}
+  .info-row__ic{width:42px;height:42px;border-radius:10px;background:var(--paper-2);display:grid;place-items:center;flex:none;color:var(--spruce)}
+  .info-row__ic svg{width:20px;height:20px}
+  .info-row h4{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);font-family:"Figtree",sans-serif;font-weight:700;margin-bottom:6px}
+  .info-row .big{font-family:"Zilla Slab",serif;font-size:1.35rem;text-decoration:none;color:var(--ink)}
+  .info-row a.big:hover{color:var(--spruce)}
+  .hours{list-style:none;margin:0;padding:0;font-size:1rem}
+  .hours li{display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px dotted var(--line)}
+  .hours li:last-child{border-bottom:0}
+  .hours .closed{color:#a2503a;font-weight:600}
+  .hours .today{color:var(--spruce);font-weight:700}
+  .map{margin-top:20px;border-radius:var(--r);overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow-sm);height:260px}
+  .map iframe{width:100%;height:100%;border:0;display:block;filter:saturate(.9)}
+
+  /* Form */
+  .form{background:#fff;border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:30px 30px 34px}
+  .form h3{font-size:1.55rem;margin-bottom:6px}
+  .form>p{color:var(--ink-soft);margin-bottom:22px;font-size:1rem}
+  .field{margin-bottom:16px}
+  .field label{display:block;font-size:.85rem;font-weight:600;margin-bottom:7px;color:var(--ink)}
+  .field input,.field select,.field textarea{
+    width:100%;padding:13px 15px;border:1.5px solid var(--line);border-radius:10px;font:inherit;font-size:1rem;
+    background:var(--paper);color:var(--ink);transition:border-color .15s, box-shadow .15s
+  }
+  .field input:focus,.field select:focus,.field textarea:focus{
+    outline:none;border-color:var(--spruce);box-shadow:0 0 0 3px rgba(30,58,47,.12)
+  }
+  .field textarea{resize:vertical;min-height:96px}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .form__note{font-size:.82rem;color:var(--ink-soft);margin-top:14px;text-align:center}
+  .form__ok{display:none;background:#e7f0e9;border:1px solid #bcd8c3;color:#1f4a30;border-radius:10px;padding:14px 16px;margin-top:16px;font-size:.95rem}
+
+  /* Footer */
+  .footer{background:var(--pine);color:var(--paper);padding:56px 0 26px;position:relative;overflow:hidden}
+  .footer__pattern{position:absolute;inset:0;opacity:.06;pointer-events:none}
+  .footer__in{position:relative;display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px;max-width:1140px;margin-inline:auto;padding:0 24px}
+  .footer h4{font-size:.8rem;letter-spacing:.16em;text-transform:uppercase;color:var(--brass-lt);margin-bottom:16px;font-family:"Figtree",sans-serif;font-weight:700}
+  .footer a{color:rgba(243,241,235,.82);text-decoration:none;display:block;margin-bottom:10px;font-size:.98rem}
+  .footer a:hover{color:var(--brass-lt)}
+  .footer__brand p{color:rgba(243,241,235,.75);font-size:.98rem;max-width:32ch;margin-top:14px}
+  .footer__bar{position:relative;max-width:1140px;margin:40px auto 0;padding:22px 24px 0;border-top:1px solid rgba(228,200,146,.15);
+    display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;font-size:.85rem;color:rgba(243,241,235,.6)}
+
+  /* Mobile fixed call bar */
+  .callbar{position:fixed;left:0;right:0;bottom:0;z-index:70;display:none;gap:10px;padding:11px 14px calc(11px + env(safe-area-inset-bottom));
+    background:rgba(21,39,30,.97);backdrop-filter:blur(8px);border-top:1px solid rgba(228,200,146,.2)}
+  .callbar .btn{flex:1;padding:14px}
+  .callbar .btn--ghost{color:var(--paper)}
+
+  /* Reveal animation */
+  .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease, transform .7s ease}
+  .reveal.in{opacity:1;transform:none}
+
+  /* ---------- Responsive ---------- */
+  @media(max-width:900px){
+    .hero__in{grid-template-columns:1fr;gap:40px;padding:56px 24px 64px}
+    .board{max-width:420px;transform:rotate(-1deg)}
+    .trust__in{grid-template-columns:1fr 1fr}
+    .trust__item:nth-child(1),.trust__item:nth-child(3){border-left:0}
+    .trust__item:nth-child(3),.trust__item:nth-child(4){border-top:1px solid rgba(228,200,146,.14)}
+    .services{grid-template-columns:1fr}
+    .craft__in{grid-template-columns:1fr;gap:40px;padding:64px 24px}
+    .gallery{grid-template-columns:1fr 1fr}
+    .area__in{grid-template-columns:1fr;gap:32px}
+    .contact__in{grid-template-columns:1fr}
+    .footer__in{grid-template-columns:1fr 1fr}
+    .footer__brand{grid-column:1 / -1}
+  }
+  @media(max-width:640px){
+    body{font-size:16.5px}
+    .topnav{display:none}
+    .topbar .btn--brass{display:none}
+    .brand__txt small{display:none}
+    .section{padding:64px 0}
+    .grid2{grid-template-columns:1fr}
+    .gallery{grid-template-columns:1fr}
+    .footer__in{grid-template-columns:1fr}
+    .callbar{display:flex}
+    body{padding-bottom:76px}
+    .hero h1{font-size:2.4rem}
+  }
+  @media(prefers-reduced-motion:reduce){
+    *{scroll-behavior:auto!important}
+    .reveal{opacity:1;transform:none;transition:none}
+    .btn,.svc,.board{transition:none}
+  }
+
+  /* ---------- Selected projects ---------- */
+  .proj-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  .proj-card{background:var(--spruce);color:var(--paper);border:1px solid rgba(228,200,146,.16);border-radius:12px;padding:22px 22px;transition:transform .2s ease, box-shadow .2s ease}
+  .proj-card:hover{transform:translateY(-5px);box-shadow:var(--shadow)}
+  .proj-card .cat{font-size:.7rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--brass-lt);display:block;margin-bottom:9px}
+  .proj-card b{font-family:"Zilla Slab",serif;font-weight:600;font-size:1.22rem;line-height:1.14;display:block}
+  .proj-card .loc{color:rgba(243,241,235,.6);font-size:.9rem}
+  .proj-badges{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}
+  .proj-badge{display:flex;gap:16px;align-items:center;background:linear-gradient(180deg,#fdfcf9,#f1ede3);border:1px solid var(--line);border-radius:14px;padding:22px 24px;box-shadow:var(--shadow-sm)}
+  .proj-badge__ic{width:48px;height:48px;border-radius:11px;background:var(--spruce);color:var(--brass-lt);display:grid;place-items:center;flex:none}
+  .proj-badge__ic svg{width:23px;height:23px}
+  .proj-badge b{font-family:"Zilla Slab",serif;font-size:1.14rem;display:block;margin-bottom:3px;color:var(--ink)}
+  .proj-badge span{color:var(--ink-soft);font-size:.94rem;line-height:1.4}
+  @media(max-width:900px){
+    .proj-grid{grid-template-columns:1fr 1fr}
+    .proj-badges{grid-template-columns:1fr}
+  }
+  @media(max-width:640px){
+    .proj-grid{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+
+<!-- Damask wallpaper pattern reused via CSS var (data URI) -->
+<script>
+  // define a subtle brass damask as a CSS variable for chips/tiles
+  document.documentElement.style.setProperty('--damask',
+    "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cg fill='none' stroke='%23E4C892' stroke-width='1' opacity='0.5'%3E%3Cpath d='M24 4c6 6 6 12 0 20-6-8-6-14 0-20zM24 44c-6-6-6-12 0-20 6 8 6 14 0 20zM4 24c6-6 12-6 20 0-8 6-14 6-20 0zM44 24c-6 6-12 6-20 0 8-6 14-6 20 0z'/%3E%3Ccircle cx='24' cy='24' r='2.4' fill='%23E4C892' stroke='none'/%3E%3C/g%3E%3C/svg%3E\")"
+  );
+</script>
+
+<!-- ============ HEADER ============ -->
+<header class="topbar">
+  <div class="topbar__in">
+    <a class="brand" href="#top" aria-label="Rod Jones Custom Wallcovering, home">
+      <span class="brand__mark"><span>RJ</span></span>
+      <span class="brand__txt">
+        <b>Rod Jones</b>
+        <small>Custom Wallcovering</small>
+      </span>
+    </a>
+    <nav class="topnav" aria-label="Primary">
+      <a class="lnk" href="#services">Services</a>
+      <a class="lnk" href="#projects">Projects</a>
+      <a class="lnk" href="#work">Our Work</a>
+      <a class="lnk" href="#area">Service Area</a>
+      <a class="lnk" href="#contact">Contact</a>
+      <a class="btn btn--brass" href="tel:+16194624988">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        (619) 462-4988
+      </a>
+    </nav>
+  </div>
+</header>
+
+<a id="top"></a>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <svg class="hero__pattern" aria-hidden="true" width="100%" height="100%">
+    <defs>
+      <pattern id="damaskHero" width="90" height="90" patternUnits="userSpaceOnUse" patternTransform="scale(1.3)">
+        <g fill="none" stroke="#E4C892" stroke-width="1.1">
+          <path d="M45 8c11 11 11 22 0 37-11-15-11-26 0-37zM45 82c-11-11-11-22 0-37 11 15 11 26 0 37zM8 45c11-11 22-11 37 0-15 11-26 11-37 0zM82 45c-11 11-22 11-37 0 15-11 26-11 37 0z"/>
+          <circle cx="45" cy="45" r="3.4" fill="#E4C892" stroke="none"/>
+        </g>
+      </pattern>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#damaskHero)"/>
+  </svg>
+  <div class="hero__glow" aria-hidden="true"></div>
+
+  <div class="hero__in">
+    <div class="hero__copy reveal">
+      <span class="eyebrow">El Cajon, CA &nbsp;·&nbsp; Since 1979</span>
+      <h1>Custom wallcovering <span class="amp">&amp;</span> specialty finishes, done to last.</h1>
+      <p class="hero__lead">One craftsman, four decades of steady hands. Specialty wall coverings, gold leaf, murals, wood lamination and acoustic paneling — plus interior painting and general contracting — trusted across East San Diego County since 1979.</p>
+      <div class="hero__cta">
+        <a class="btn btn--brass btn--big" href="tel:+16194624988">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call (619) 462-4988
+        </a>
+        <a class="btn btn--ghost btn--big" href="#contact">Request a free estimate</a>
+      </div>
+      <div class="hero__micro">
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Free, no-pressure estimates</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Licensed &amp; insured</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Local &amp; family-run</span>
+      </div>
+    </div>
+
+    <!-- SIGNATURE: painter's sample board -->
+    <div class="board reveal" role="img" aria-label="Sample board showing Rod Jones services: wallcovering, painting, and general contracting.">
+      <div class="board__top">
+        <b>The Work</b>
+        <span class="yrs">46 Years</span>
+      </div>
+      <div class="swatch">
+        <div class="swatch__chip chip-paper"></div>
+        <div class="swatch__t"><b>Specialty Wallcovering</b><small>Custom paper, lamination &amp; panels</small></div>
+        <span class="swatch__tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+      </div>
+      <div class="swatch">
+        <div class="swatch__chip chip-paint"></div>
+        <div class="swatch__t"><b>Gold Leaf &amp; Murals</b><small>Hand-applied decorative detail</small></div>
+        <span class="swatch__tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+      </div>
+      <div class="swatch">
+        <div class="swatch__chip chip-build"></div>
+        <div class="swatch__t"><b>Painting &amp; Contracting</b><small>Interior finishes &amp; remodels</small></div>
+        <span class="swatch__tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+      </div>
+      <div class="board__foot">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        El Cajon, California · Licensed &amp; insured
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRUST STRIP ============ -->
+<section class="trust">
+  <div class="trust__in">
+    <div class="trust__item"><b>1979</b><span>Serving East County</span></div>
+    <div class="trust__item"><b>46+</b><span>Years of experience</span></div>
+    <div class="trust__item"><b>Free</b><span>On-site estimates</span></div>
+    <div class="trust__item"><b>★</b><span>Nextdoor Neighborhood Favorite</span></div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section" id="services">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow eyebrow--dark">What we do</span>
+      <h2>Fine wall finishes, one master's hand</h2>
+      <p>From hand-applied gold leaf and custom murals to specialty wallcovering and acoustic paneling — the detail work most contractors send out, done in-house by the person you actually hired.</p>
+    </div>
+
+    <div class="services">
+      <article class="svc reveal">
+        <div class="svc__swatch svc__swatch--paper"><span class="num">01</span></div>
+        <div class="svc__body">
+          <h3>Specialty Wall Coverings</h3>
+          <p>Custom wallpaper and specialty wall coverings installed with the patience the material deserves — plus wood lamination and acoustic paneling.</p>
+          <ul class="svc__list">
+            <li>Specialty wall covering &amp; custom wallpaper</li>
+            <li>Wood lamination</li>
+            <li>Acoustic paneling</li>
+            <li>Wall prep, removal &amp; seam work</li>
+          </ul>
+          <a class="svc__link" href="#contact">Ask about your walls
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+
+      <article class="svc reveal">
+        <div class="svc__swatch svc__swatch--gold"><span class="num">02</span></div>
+        <div class="svc__body">
+          <h3>Gold Leaf, Murals &amp; Graphics</h3>
+          <p>Hand-applied decorative work that turns a wall into the centerpiece of the room — the fine detail most crews simply can't do.</p>
+          <ul class="svc__list">
+            <li>Gold leaf application</li>
+            <li>Custom murals &amp; graphics</li>
+            <li>Hand-painted accent detail</li>
+            <li>Feature &amp; focal walls</li>
+          </ul>
+          <a class="svc__link" href="#contact">See what's possible
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+
+      <article class="svc reveal">
+        <div class="svc__swatch svc__swatch--build"><span class="num">03</span></div>
+        <div class="svc__body">
+          <h3>Painting &amp; General Contracting</h3>
+          <p>Clean interior painting, plus the remodels, repairs and finish work that tie a project together — handled by one accountable pro.</p>
+          <ul class="svc__list">
+            <li>Interior painting — walls, trim &amp; ceilings</li>
+            <li>Cabinets &amp; accent work</li>
+            <li>Remodels, drywall &amp; repairs</li>
+            <li>Finish carpentry &amp; touch-ups</li>
+          </ul>
+          <a class="svc__link" href="#contact">Talk through a project
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SELECTED PROJECTS ============ -->
+<section class="section section--paper2" id="projects">
+  <div class="wrap">
+    <div class="section-head reveal" style="max-width:700px">
+      <span class="eyebrow eyebrow--dark">Selected projects</span>
+      <h2>Trusted on landmark work</h2>
+      <p>Four decades of specialty finishes for some of San Diego's most recognized addresses — and a few well beyond it. The same hands that hang a single accent wall have finished these:</p>
+    </div>
+
+    <div class="proj-grid reveal">
+      <div class="proj-card"><span class="cat">Hospitality</span><b>Hotel del Coronado</b><span class="loc">Coronado</span></div>
+      <div class="proj-card"><span class="cat">Residential</span><b>Coronado Towers</b><span class="loc">Coronado</span></div>
+      <div class="proj-card"><span class="cat">Retail</span><b>Lowe's</b><span class="loc">Coronado</span></div>
+      <div class="proj-card"><span class="cat">Gaming</span><b>Valley View Casino</b><span class="loc">Valley Center</span></div>
+      <div class="proj-card"><span class="cat">Gaming</span><b>Sycuan Casino</b><span class="loc">El Cajon</span></div>
+      <div class="proj-card"><span class="cat">Fine dining</span><b>The Marine Room</b><span class="loc">La Jolla</span></div>
+      <div class="proj-card"><span class="cat">Fine dining</span><b>Mr. A's</b><span class="loc">San Diego</span></div>
+      <div class="proj-card"><span class="cat">Corporate</span><b>Google Headquarters</b><span class="loc">Corporate campus</span></div>
+      <div class="proj-card"><span class="cat">Institutional</span><b>Catholic Church</b><span class="loc">Visalia</span></div>
+    </div>
+
+    <div class="proj-badges reveal">
+      <div class="proj-badge">
+        <div class="proj-badge__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><path d="M9 7h7M9 11h7"/></svg></div>
+        <div><b>Featured in San Diego Home &amp; Garden</b><span>His custom wallcovering and decorative finishes have been showcased in the magazine.</span></div>
+      </div>
+      <div class="proj-badge">
+        <div class="proj-badge__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <div><b>Discreet, A-list clientele</b><span>Trusted with private residences and projects for celebrities and pro athletes — under strict NDA.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CRAFT / ABOUT ============ -->
+<section class="craft" id="about">
+  <svg class="craft__pattern" aria-hidden="true" width="100%" height="100%">
+    <rect width="100%" height="100%" fill="url(#damaskHero)"/>
+  </svg>
+  <div class="craft__in">
+    <div class="reveal">
+      <span class="eyebrow">The craft</span>
+      <h2>Since 1979, the same standard</h2>
+      <p>Rod Jones has been covering and finishing walls across El Cajon and East San Diego County for more than four decades. It's a hands-on operation — no call center, no rotating crews. You reach the craftsman, you get an honest estimate, and the walls get done the way they should be.</p>
+      <p>That's how a business lasts 46 years: careful prep, tight seams, clean lines, and showing up when you say you will.</p>
+      <div class="quote">
+        <p>“I estimate it, I do it, and when it's finished you'll see the difference.”</p>
+        <cite>— The Rod Jones approach</cite>
+      </div>
+    </div>
+    <div class="craft__stats reveal">
+      <div class="cstat"><b>1979</b><span>The year it all started — and the same care ever since.</span></div>
+      <div class="cstat"><b>One craftsman</b><span>You talk to the person doing the work, start to finish.</span></div>
+      <div class="cstat"><b>East County</b><span>Rooted in El Cajon, serving the neighborhoods around it.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WORK GALLERY ============ -->
+<section class="section section--paper2" id="work">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow eyebrow--dark">Our work</span>
+      <h2>A look at the finish</h2>
+      <p>Specialty wall coverings, gold leaf, murals and paint from around East County. Swap these placeholders for real project photos to show off the craftsmanship.</p>
+    </div>
+    <div class="gallery reveal">
+      <div class="tile g1"><b>Interior painting</b></div>
+      <div class="tile g2"><b>Custom wallpaper</b></div>
+      <div class="tile g3"><b>Gold leaf detail</b></div>
+      <div class="tile g4"><b>Wood lamination</b></div>
+      <div class="tile g5"><b>Acoustic paneling</b></div>
+      <div class="tile g6"><b>Hand-painted mural</b></div>
+    </div>
+    <p class="gallery-note">📸 Placeholder tiles — replace each with a real before/after photo (see the notes that came with this file).</p>
+  </div>
+</section>
+
+<!-- ============ SERVICE AREA ============ -->
+<section class="section" id="area">
+  <div class="wrap">
+    <div class="area__in">
+      <div class="reveal">
+        <span class="eyebrow eyebrow--dark">Where we work</span>
+        <h2 style="font-size:clamp(2rem,3.6vw,2.6rem)">Proudly serving East San Diego County</h2>
+        <p style="color:var(--ink-soft);margin:16px 0 26px;font-size:1.08rem">Based in El Cajon and covering the surrounding communities:</p>
+        <div class="area__list">
+          <span class="pill">El Cajon</span>
+          <span class="pill">La Mesa</span>
+          <span class="pill">Del Cerro</span>
+          <span class="pill">Mount Helix</span>
+          <span class="pill">San Carlos</span>
+          <span class="pill">Fletcher Hills</span>
+          <span class="pill">Rancho San Diego</span>
+          <span class="pill">Spring Valley</span>
+          <span class="pill">Lakeside</span>
+          <span class="pill">Santee</span>
+        </div>
+      </div>
+      <div class="area__cta reveal">
+        <h3>Not sure if you're in the area?</h3>
+        <p>Give a quick call — chances are good we cover your neighborhood, and the estimate is always free.</p>
+        <a class="btn btn--brass btn--big" href="tel:+16194624988" style="width:100%">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call (619) 462-4988
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section section--paper2" id="contact">
+  <div class="wrap">
+    <div class="section-head reveal" style="max-width:720px">
+      <span class="eyebrow eyebrow--dark">Get in touch</span>
+      <h2>Ready when you are</h2>
+      <p>Call for the fastest answer, or send a few details and we'll get right back to you with a free estimate.</p>
+    </div>
+
+    <div class="contact__in">
+      <!-- Left: info + hours + map -->
+      <div class="reveal">
+        <div class="info-card">
+          <div class="info-row">
+            <div class="info-row__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+            <div>
+              <h4>Call or text</h4>
+              <a class="big" href="tel:+16194624988">(619) 462-4988</a>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-row__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+            <div>
+              <h4>Service area</h4>
+              <a class="big" href="https://www.google.com/maps/dir/?api=1&destination=2587+Carlow+St+El+Cajon+CA+92020" target="_blank" rel="noopener" style="font-size:1.15rem">El Cajon, CA 92020 &amp; East County</a>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-row__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+            <div style="flex:1">
+              <h4>Hours</h4>
+              <ul class="hours" id="hours">
+                <li data-day="1"><span>Monday</span><span>8:00 AM – 5:00 PM</span></li>
+                <li data-day="2"><span>Tuesday</span><span>8:00 AM – 5:00 PM</span></li>
+                <li data-day="3"><span>Wednesday</span><span>8:00 AM – 5:00 PM</span></li>
+                <li data-day="4"><span>Thursday</span><span>8:00 AM – 5:00 PM</span></li>
+                <li data-day="5"><span>Friday</span><span>8:00 AM – 5:00 PM</span></li>
+                <li data-day="6"><span>Saturday</span><span>By appointment</span></li>
+                <li data-day="0"><span>Sunday</span><span class="closed">Closed</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="map">
+          <iframe title="Map to Rod Jones Custom Wallcovering, El Cajon CA" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=2587+Carlow+St+El+Cajon+CA+92020&output=embed"></iframe>
+        </div>
+      </div>
+
+      <!-- Right: estimate form -->
+      <div class="reveal">
+        <div class="form">
+          <h3>Request a free estimate</h3>
+          <p>Tell us a little about the job. We'll follow up by phone or email — usually the same day.</p>
+          <form id="estimateForm" novalidate>
+            <div class="grid2">
+              <div class="field">
+                <label for="name">Your name</label>
+                <input id="name" name="name" type="text" placeholder="Jane Homeowner" required />
+              </div>
+              <div class="field">
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" type="tel" placeholder="(619) 555-0100" required />
+              </div>
+            </div>
+            <div class="field">
+              <label for="email">Email <span style="color:var(--ink-soft);font-weight:400">(optional)</span></label>
+              <input id="email" name="email" type="email" placeholder="you@email.com" />
+            </div>
+            <div class="field">
+              <label for="service">What do you need?</label>
+              <select id="service" name="service">
+                <option>Specialty wall covering / wallpaper</option>
+                <option>Gold leaf, murals &amp; graphics</option>
+                <option>Wood lamination / acoustic paneling</option>
+                <option>Interior painting</option>
+                <option>General contracting / remodel</option>
+                <option>Not sure — need advice</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="message">Project details</label>
+              <textarea id="message" name="message" placeholder="e.g. One accent wall in the nursery, about 10 ft wide — wallpaper I already bought."></textarea>
+            </div>
+            <button class="btn btn--ink btn--big" type="submit" style="width:100%">Send my request</button>
+            <p class="form__note">Prefer to talk? Call <a href="tel:+16194624988" style="color:var(--spruce);font-weight:600">(619) 462-4988</a>.</p>
+          </form>
+          <div class="form__ok" id="formOk">Thanks! Your email app should open with the details ready to send. If it didn't, just call <b>(619) 462-4988</b>.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <svg class="footer__pattern" aria-hidden="true" width="100%" height="100%">
+    <rect width="100%" height="100%" fill="url(#damaskHero)"/>
+  </svg>
+  <div class="footer__in">
+    <div class="footer__brand">
+      <a class="brand" href="#top" style="color:var(--paper)">
+        <span class="brand__mark"><span>RJ</span></span>
+        <span class="brand__txt"><b>Rod Jones</b><small>Custom Wallcovering</small></span>
+      </a>
+      <p>Specialty wall coverings, gold leaf, murals, wood lamination, acoustic paneling and interior painting for El Cajon and East San Diego County. Trusted since 1979.</p>
+    </div>
+    <div>
+      <h4>Services</h4>
+      <a href="#services">Specialty wall coverings</a>
+      <a href="#services">Gold leaf, murals &amp; graphics</a>
+      <a href="#services">Wood lamination &amp; acoustic paneling</a>
+      <a href="#services">Interior painting &amp; contracting</a>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <a href="tel:+16194624988">(619) 462-4988</a>
+      <a href="https://www.google.com/maps/dir/?api=1&destination=2587+Carlow+St+El+Cajon+CA+92020" target="_blank" rel="noopener">El Cajon, CA 92020</a>
+      <a href="#contact">Request an estimate</a>
+    </div>
+  </div>
+  <div class="footer__bar">
+    <span>© <span id="yr"></span> Rod Jones Custom Wallcovering. All rights reserved.</span>
+    <span>El Cajon, California · Licensed &amp; insured · CA Lic # 000000</span>
+  </div>
+</footer>
+
+<!-- ============ MOBILE CALL BAR ============ -->
+<div class="callbar">
+  <a class="btn btn--brass" href="tel:+16194624988">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    Call now
+  </a>
+  <a class="btn btn--ghost" href="#contact">Free estimate</a>
+</div>
+
+<script>
+  // Year
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  // Highlight today's hours
+  (function(){
+    var today = new Date().getDay();
+    var row = document.querySelector('#hours li[data-day="'+today+'"]');
+    if(row){ row.querySelector('span:last-child').classList.add('today'); }
+  })();
+
+  // Scroll reveal
+  (function(){
+    var els = document.querySelectorAll('.reveal');
+    if(!('IntersectionObserver' in window)){ els.forEach(function(e){e.classList.add('in');}); return; }
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target);} });
+    },{threshold:.12, rootMargin:'0px 0px -40px 0px'});
+    els.forEach(function(e){ io.observe(e); });
+  })();
+
+  // Estimate form -> compose email (works with no server)
+  (function(){
+    var form = document.getElementById('estimateForm');
+    if(!form) return;
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      var name = form.name.value.trim();
+      var phone = form.phone.value.trim();
+      if(!name || !phone){ form.reportValidity && form.reportValidity(); return; }
+      var email = form.email.value.trim();
+      var service = form.service.value;
+      var message = form.message.value.trim();
+
+      // TODO: replace with Rod's real email address:
+      var TO = 'rodjones@example.com';
+
+      var subject = 'Estimate request from ' + name + ' — ' + service;
+      var body =
+        'New estimate request from the website:\n\n' +
+        'Name: ' + name + '\n' +
+        'Phone: ' + phone + '\n' +
+        (email ? 'Email: ' + email + '\n' : '') +
+        'Service: ' + service + '\n\n' +
+        'Details:\n' + (message || '(none provided)') + '\n';
+
+      window.location.href = 'mailto:' + TO +
+        '?subject=' + encodeURIComponent(subject) +
+        '&body=' + encodeURIComponent(body);
+
+      document.getElementById('formOk').style.display = 'block';
+    });
+  })();
+</script>
+
+</body>
+</html>
